@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Title{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(106, 60, 60);
+}
+
+.contact-icon{
+    width: 30px;
+}
+
+ul {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+li {
+    list-style: none;
+}
