@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
+
+.header-img img{
+    top: 0px;
+    left: 0;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
+
+.Dates-title{
+    position: relative;
+    margin-top: -20rem;
+    margin-left: 12rem;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Alkatra', cursive;
+}
+
+.Dates-body{
+    padding-top: 250px;
+}
+
+.Dates-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.Dates-img {
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.Dates-img img{
+    width: 100%;
+    height: 100vh;
+    border-radius: 5px;
+}

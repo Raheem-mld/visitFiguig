@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
+
+.Eat-img{
+    top: 0px;
+    left: 0;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
+
+.Eat-title{
+    position: relative;
+
+    margin-top: -20rem;
+    margin-left: 12rem;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Alkatra', cursive;
+}
+
+.activitie-title{
+    padding-top: 250px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.Eat-card {
+    display: block;
+    width: 270px;
+    height: 400px;
+  }
+
+  .Eat-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px 30px;
+    grid-template-areas:
+      ". . . .";
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 1px;
+  }
+
+  .Eat-images {
+    width: 20px;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .Eat-slogan{
+    padding-top: 10px;
+    padding-left: 0px;
+
+}
+
+  .quotes{
+    padding-left: 0px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .btn-more{
+    color: rgb(119, 13, 13);;
+    font-weight: 500;
+    padding-left: 15px;
+    font-size: 12px;
+}
+
+.Eat-text{
+  font-size: 13px;
+  padding-bottom: 0px;
+}
+
+.Eat-texts{
+  height: 20vh;
+}

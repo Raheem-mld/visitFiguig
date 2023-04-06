@@ -1,0 +1,46 @@
+.Experience{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Experience-title{
+    padding-left: 90px;
+    padding-bottom: 50px;
+}
+
+.Cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .Card {
+    width: 350px;
+    height: 450px;
+  }
+
+
+.book-btn{
+    color: black;
+    font-weight: 600;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+hr{
+    width: 80%;
+    color: azure;
+    margin: auto;
+    padding: auto;
+}
+
+.texts{
+    font-size: 15px;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 600;
+}

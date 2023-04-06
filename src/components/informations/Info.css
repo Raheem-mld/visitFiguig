@@ -1,0 +1,52 @@
+.info{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Info-title{
+    padding-left: 90px;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+.Cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .Card {
+    width: 250px;
+    height: 150px;
+  }
+
+
+.info-slogan{
+    padding-top: 15px;
+    padding-left: 15px;
+
+}
+
+.slogans{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-learnmore{
+    color: rgb(119, 13, 13);;
+    font-weight: 500;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+hr{
+    width: 80%;
+    color: azure;
+    margin: auto;
+}
+
+.link-without-underline {
+    text-decoration: none;
+  }
