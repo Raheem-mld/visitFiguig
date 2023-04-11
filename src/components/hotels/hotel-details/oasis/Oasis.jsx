@@ -20,7 +20,6 @@ import HouseOutlinedIcon from '@mui/icons-material/HouseOutlined';
 import SmokeFreeOutlinedIcon from '@mui/icons-material/SmokeFreeOutlined';
 import BedroomParentOutlinedIcon from '@mui/icons-material/BedroomParentOutlined';
 
-import { Button } from '@mui/material';
 
 import img1 from '../../../../assets/auberge-oasis-salon.jpg'
 import img2 from '../../../../assets/auberge-oasis-inside.jpg'
@@ -33,9 +32,29 @@ import './Oasis.css'
 import Navbar from '../../../navbar/Navbar';
 import Footer from '../../../footer/Footer';
 
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Modal from '@mui/material/Modal';
+
+const style = {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: 600,
+    bgcolor: 'background.paper',
+    border: '2px solid #000',
+    boxShadow: 24,
+    p: 4,
+};
 
 
 const Oasis = () => {
+
+    const [open, setOpen] = React.useState(false);
+    const handleOpen = () => setOpen(true);
+    const handleClose = () => setOpen(false);
+
     return (
         <div>
             <Navbar />
@@ -54,7 +73,27 @@ const Oasis = () => {
                     <LocationOnIcon />
                 </div>
                 <div className="slogan-location">
-                    <span>Rue Jamaa Ksar Zenaga, Figuig 61000 Maroc</span>
+                    <Button onClick={handleOpen}><span className='location-text'>Rue Jamaa Ksar Zenaga, Figuig 61000 Maroc</span></Button>
+                    <Modal
+                        open={open}
+                        onClose={handleClose}
+                        aria-labelledby="modal-modal-title"
+                        aria-describedby="modal-modal-description"
+                    >
+                        <Box sx={style}>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3379.9032146288796!2d-1.2399710842978147!3d32.09890137420009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd85d892a1fac0e1%3A0x59efdc8106356597!2sAuberge%20Oasis!5e0!3m2!1sfr!2sma!4v1680879535141!5m2!1sfr!2sma"
+                                width="600"
+                                height="450"
+                                style={{ border: "0" }}
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+
+
+                        </Box>
+                    </Modal>
                 </div>
 
             </div>

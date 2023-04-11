@@ -102,6 +102,15 @@ footer .footer-top .container .search input {
 .lists li{
     color: rgb(30, 99, 12);
 }
+
+.logo{
+   color:  rgb(106, 60, 60);
+}
+
+.title{
+    color:  rgb(106, 60, 60);
+}
+
 /*responsive tablete */ 
 /* @media (max-width: 768px)  {
     footer .footer-top .container .desc .logo {

@@ -48,7 +48,7 @@ const About = () => {
               <p className='first-text'>
                 Arabic is the official language of Morocco<br></br>
                  and the primary language used in all dealings <br></br>
-                  is TAMAZIGHT.
+                 in Figuig is TAMAZIGHT.
               </p>
             </div>
           </div>

@@ -108,7 +108,6 @@ const Hotel = () => {
                 alt="green iguana"
                 height="150"
                 image={img5}
-                className="do-images"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div" className='info-slogan'>

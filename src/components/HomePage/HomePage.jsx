@@ -5,6 +5,7 @@ import Hero from '../hero/Hero';
 import Info from '../informations/Info';
 import Food from '../food/Food';
 import Experience from '../experience/Experience';
+import Arts from '../arts/Arts';
 import Footer from '../footer/Footer';
 
 function HomePage() {
@@ -15,6 +16,7 @@ function HomePage() {
       <Info />
       <Food />
       <Experience />
+      <Arts />
       <Footer />
     </div>
   );

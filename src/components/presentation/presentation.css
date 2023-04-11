@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
+
+.presentation-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .presentation-title {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: white;
+    font-size: 50px;
+    font-family: 'Alkatra', cursive;
+  }
+  
+  .presentation-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .presentation-section{
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+  .discover-title{
+    font-size: 20px;
+    padding-bottom: 40px;
+  }
+
+  .middle-img img{
+    width: 100%;
+    height: 80vh;
+    border-radius: 5px;
+  }
+
+  .img-text{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 0px;
+    grid-template-areas:
+      ". .";
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }

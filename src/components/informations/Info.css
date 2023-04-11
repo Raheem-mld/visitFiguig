@@ -19,7 +19,7 @@
   
   .Card {
     width: 250px;
-    height: 150px;
+    height: 450px;
   }
 
 
@@ -34,7 +34,7 @@
     font-weight: 600;
 }
 
-.btn-learnmore{
+.more{
     color: rgb(119, 13, 13);;
     font-weight: 500;
     padding-left: 20px;

@@ -18,13 +18,13 @@
   
   .Card {
     width: 350px;
-    height: 450px;
+    height: 350px;
   }
 
 
 .book-btn{
     color: black;
-    font-weight: 600;
+    font-size: 13px;
     padding-left: 20px;
     margin-bottom: 50px;
 }
@@ -37,10 +37,11 @@ hr{
 }
 
 .texts{
-    font-size: 15px;
+    font-size: 14px;
 }
 
-.price{
-    font-size: 18px;
+.Experience-slogan{
+    font-size: 16px;
     font-weight: 600;
+    padding-left: 5px;
 }

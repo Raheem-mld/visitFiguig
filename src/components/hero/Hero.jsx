@@ -1,6 +1,6 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Parallax, Navigation, EffectFade, Autoplay, Pagination } from 'swiper';
+import {  Navigation, EffectFade, Autoplay, Pagination } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation'
 import 'swiper/css/effect-fade'
@@ -39,7 +39,7 @@ const Hero = () => {
           <div className="content">
             <p className="title-content">Discover Figuig</p>
             <p className="slogan">For a unique travel experience, enjoy our Oasis.</p>
-            <Link to="/understand" className="link-without-underline"><button className="btn-discover"><span className="span-disc">Discover more</span></button></Link>
+            <Link to="/presentation" className="link-without-underline"><button className="btn-discover"><span className="span-disc">Discover more</span></button></Link>
           </div>
         </SwiperSlide>
 

@@ -26,7 +26,7 @@ const Info = () => {
                         <CardMedia
                             component="img"
                             alt="green iguana"
-                            height="250"
+                            height="200"
                             image={img1}
                         />
                         <CardContent>
@@ -37,7 +37,7 @@ const Info = () => {
                         </CardContent>
                         <hr/>
                         <CardActions>
-                            <Link to="/understand" className="link-without-underline"><span  className='btn-learnmore'>Learn More ></span></Link>
+                            <Link to="/understand" className="link-without-underline"><span  className='more'>Learn More ></span></Link>
                         </CardActions>
                     </Card>
                
@@ -46,7 +46,7 @@ const Info = () => {
                         <CardMedia
                             component="img"
                             alt="green iguana"
-                            height="250"
+                            height="200"
                             image={img2}
                         />
                         <CardContent>
@@ -57,7 +57,7 @@ const Info = () => {
                         </CardContent>
                         <hr/>
                         <CardActions>
-                        <Link to="/travel-safety-tips" className="link-without-underline"><span  className='btn-learnmore'>Learn More ></span></Link>
+                        <Link to="/travel-safety-tips" className="link-without-underline"><span  className='more'>Learn More ></span></Link>
                         </CardActions>
                     </Card>
 
@@ -66,18 +66,18 @@ const Info = () => {
                         <CardMedia
                             component="img"
                             alt="green iguana"
-                            height="250"
+                            height="200"
                             image={img3}
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div" className='info-slogan'>
-                            <span className='slogans'> Hotels</span>
+                            <span className='slogans'> Hostels & Guest houses</span>
                             </Typography>
                             
                         </CardContent>
                         <hr/>
                         <CardActions>
-                        <Link to="/hotels" className="link-without-underline"><span  className='btn-learnmore'>Learn More ></span></Link>
+                        <Link to="/hotels" className="link-without-underline"><span  className='more'>Learn More ></span></Link>
                         </CardActions>
                     </Card>
 
@@ -86,18 +86,18 @@ const Info = () => {
                         <CardMedia
                             component="img"
                             alt="green iguana"
-                            height="250"
+                            height="200"
                             image={img4}
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div" className='info-slogan'>
-                            <span className='slogans'> Transportation & Flight</span>
+                            <span className='slogans'> Transportation</span>
                             </Typography>
                         
                         </CardContent>
                         <hr/>
                         <CardActions>
-                        <Link to="/transportation" className="link-without-underline"><span  className='btn-learnmore'>Learn More ></span></Link>
+                        <Link to="/transportation" className="link-without-underline"><span  className='more'>Learn More ></span></Link>
                         </CardActions>
                     </Card>
 

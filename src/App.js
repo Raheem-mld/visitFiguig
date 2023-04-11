@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter, Routes , Route } from 'react-router-dom';
 
 import HomePage from './components/HomePage/HomePage';
+import Presentation from './components/presentation/Presentation';
 import About from './components/understand/About';
 import Safety from './components/safetyTips/Safety';
 import Hotel from './components/hotels/Hotel';
@@ -24,6 +25,11 @@ import Dates from './components/eat/food-types/dates/Dates';
 import Pates from './components/eat/food-types/pates/Pates';
 import Trid from './components/eat/food-types/trid/Trid';
 import Couscous from './components/eat/food-types/couscous/Couscous';
+import Arts from './components/arts/Arts';
+import ArtsandMusic from './components/arts/arts-music/ArtsandMusic';
+import Music from './components/arts/music/Music';
+import Handicraft from './components/arts/handicraft/Handicraft';
+
 
 
 
@@ -32,6 +38,7 @@ function App() {
     <BrowserRouter>
       <Routes >
         <Route exact path='/' element={<HomePage/>} />
+        <Route exact path='/presentation' element={<Presentation/>} />
         <Route path='/understand' element={<About/>}/>
         <Route path='/travel-safety-tips' element={<Safety/>}/>
         <Route path='/hotels' element={<Hotel/>}/>
@@ -54,6 +61,10 @@ function App() {
         <Route path='/eat/pates' element={<Pates/>}/> 
         <Route path='/eat/trid' element={<Trid/>}/> 
         <Route path='/eat/couscous' element={<Couscous/>}/>
+        <Route path='/arts' element={<Arts/>}/>
+        <Route path='/arts&music' element={<ArtsandMusic/>}/>
+        <Route path='/music' element={<Music/>}/>
+        <Route path='/handicraft' element={<Handicraft/>}/>
 
       </Routes >
     </BrowserRouter>

@@ -30,8 +30,13 @@
   padding-left: 50px;
 }
 
-.season-img img{
-  width: 105%;
+.season-img {
+  width: 100%;
   height: 70vh;
 }
 
+.season-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

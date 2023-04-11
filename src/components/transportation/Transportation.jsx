@@ -35,7 +35,7 @@ const Transportation = () => {
                     className="Transportation-img"
                 />
 
-                <h1 className='Transportation-title'>Transportation & Flights</h1>
+                <h1 className='Transportation-title'>Transportation</h1>
 
 
                 <div className="bookcard">
@@ -138,7 +138,7 @@ const Transportation = () => {
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div" className='info-slogan'>
-                                <span className='slogans'> Hotels</span>
+                                <span className='slogans'> Hostels & Guest houses</span>
                             </Typography>
 
                         </CardContent>

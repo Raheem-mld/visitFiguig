@@ -41,7 +41,6 @@ const Currency = () => {
             </div>
           </div>
 
-
         </div>
 
         <div className="currency-cards">
@@ -108,9 +107,8 @@ const Currency = () => {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div" className='info-slogan'>
-                  <span className='slogans'> Hotels </span>
+                  <span className='slogans'> Hostels & Guest houses </span>
                 </Typography>
-
               </CardContent>
               <hr />
               <CardActions>
@@ -128,7 +126,7 @@ const Currency = () => {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div" className='info-slogan'>
-                  <span className='slogans'> Transportation & Flight</span>
+                  <span className='slogans'> Transportation</span>
                 </Typography>
 
               </CardContent>
