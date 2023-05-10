@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../../navbar/Navbar'
 import Footer from '../../footer/Footer'
 
-import img2 from '../../../assets/minaret.jpg'
+import img2 from '../../../assets/minaret2.jpg'
 
 import './monuments.css'
 

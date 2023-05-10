@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom';
 const Hero = () => {
   return (
 
-    <div className="container">
+    <div className="containers">
 
       <Swiper
         modules={[EffectFade, Navigation, Pagination, Autoplay]}
@@ -36,8 +36,8 @@ const Hero = () => {
 
         <SwiperSlide className="swiperslide">
           <img src={img2} alt="" />
-          <div className="content">
-            <p className="title-content">Discover Figuig</p>
+          <div className="contents">
+            <p className="title-contents">Discover Figuig</p>
             <p className="slogan">For a unique travel experience, enjoy our Oasis.</p>
             <Link to="/presentation" className="link-without-underline"><button className="btn-discover"><span className="span-disc">Discover more</span></button></Link>
           </div>
@@ -45,8 +45,8 @@ const Hero = () => {
 
         <SwiperSlide className="swiperslide">
           <img src={img1} alt=""/>
-          <div className="content">
-            <p className="title-content">Entartainments & activities</p>
+          <div className="contents">
+            <p className="title-contents">Entartainments & activities</p>
             <p className="slogan">With a wide variety of art, music, theater,sports and events, there’s something for everyone during your journey.</p>
             <Link to="/do" className="link-without-underline"><button className="btn-discover"><span className="span-disc">Discover more</span></button></Link>
           </div>
@@ -54,8 +54,8 @@ const Hero = () => {
 
         <SwiperSlide className="swiperslide">
           <img src={img3} alt="" />
-          <div className="content">
-            <p className="title-content">Food Experience</p>
+          <div className="contents">
+            <p className="title-contents">Food Experience</p>
             <p className="slogan">With a wide variety of art, music, theater,sports and events, there’s something for everyone during your journey.</p>
             <Link to="/eat" className="link-without-underline"><button className="btn-discover"><span className="span-disc">Discover more</span></button></Link>
           </div>

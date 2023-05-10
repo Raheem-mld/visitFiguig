@@ -2,7 +2,9 @@ import React from 'react'
 import Navbar from '../../navbar/Navbar'
 import Footer from '../../footer/Footer'
 
-import img2 from '../../../assets/view-fro-jorf-towards.jpg'
+import img1 from '../../../assets/aziza2.jpg'
+
+import img2 from '../../../assets/aziza4.jpg'
 
 import './gallery.css'
 
@@ -16,7 +18,7 @@ const Gallery = () => {
         </div>
 
         <img
-          src={img2}
+          src={img1}
           alt=""
           className="Gallery-img"
         />

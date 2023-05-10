@@ -21,6 +21,12 @@ import SmokeFreeOutlinedIcon from '@mui/icons-material/SmokeFreeOutlined';
 import BedroomParentOutlinedIcon from '@mui/icons-material/BedroomParentOutlined';
 
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, EffectFade, Autoplay, Pagination } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/navigation'
+import 'swiper/css/effect-fade'
+
 import img1 from '../../../../assets/maison-ajdir.webp'
 import img2 from '../../../../assets/oldmedina.jpg'
 import img3 from '../../../../assets/tour-de-guet-azrou-figuig.jpg'
@@ -99,20 +105,41 @@ const Ajdir = () => {
 
       </div>
 
-      <div className="hotel-images">
-        <div className="hotel-image">
-          <img src={img1} alt="" />
-        </div>
-        <div className="hotel-image">
-          <img src={img2} alt="" />
-        </div>
-        <div className="hotel-image">
-          <img src={img3} alt="" />
-        </div>
-        <div className="hotel-image">
 
-          <img src={img4} alt="" />
-        </div>
+      <div className="container-images">
+
+        <Swiper
+          modules={[EffectFade, Navigation, Pagination, Autoplay]}
+
+          effect={'fade'}
+          speed={800}
+          slidesPerView={1}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          className="mySwiper"
+        >
+
+          <SwiperSlide className="swiperslide">
+            <img src={img1} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide className="swiperslide">
+            <img src={img2} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide className="swiperslide">
+            <img src={img3} alt="" />
+          </SwiperSlide>
+          <SwiperSlide className="swiperslide">
+            <img src={img4} alt="" />
+          </SwiperSlide>
+
+        </Swiper>
 
       </div>
 

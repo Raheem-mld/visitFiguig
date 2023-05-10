@@ -2,7 +2,9 @@ import React from 'react'
 import Navbar from '../../navbar/Navbar'
 import Footer from '../../footer/Footer'
 
-import img2 from '../../../assets/tour-de-guet-azrou-figuig.jpg'
+import img1 from '../../../assets/festival2.jpg'
+
+import img2 from '../../../assets/festival1.jpg'
 
 import './culture.css'
 
@@ -16,7 +18,7 @@ const Culture = () => {
         </div>
 
         <img
-          src={img2}
+          src={img1}
           alt=""
           className="Culture-img"
         />

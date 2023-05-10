@@ -1,12 +1,12 @@
 import React, { useRef, useState } from 'react'
 import Navbar from '../navbar/Navbar'
 
-import img1 from '../../assets/jorf.jpg'
-import img2 from '../../assets/dattes-pollen.jpg'
-import img3 from '../../assets/tour-de-guet-azrou-figuig.jpg'
-import img4 from '../../assets/Saison-récolte-dattes.jpg'
-import img5 from '../../assets/poolikoudass.jpg'
-import img6 from '../../assets/minaret.jpg'
+import img1 from '../../assets/festival1.jpg'
+import img2 from '../../assets/akbouch2.jpg'
+import img3 from '../../assets/festival6.jpg'
+import img4 from '../../assets/dates.jpg'
+import img5 from '../../assets/pool1.jpg'
+import img6 from '../../assets/minaret2.jpg'
 import img7 from '../../assets/women-with-hayek.jpg'
 import img8 from '../../assets/tower.jpg'
 
@@ -121,7 +121,7 @@ const Do = () => {
               <div className="do1">
             <CardContent>
               <Typography gutterBottom variant="h5" component="div" className='do-slogans'>
-                <span className='quotes'> Date gallery</span>
+                <span className='quotes'> Dates gallery</span>
               </Typography>
               <Typography className='do-texts'>
                 <span className='do-text'> Every year Figuig hosts a gallery of dates in the heart of Ksar Zenaga Tachraft...
@@ -151,7 +151,7 @@ const Do = () => {
               <div className="do1">
             <CardContent>
               <Typography gutterBottom variant="h5" component="div" className='do-slogans'>
-                <span className='quotes'> Swimming in Bahbouha & Ikoudas</span>
+                <span className='quotes'> Swimming</span>
               </Typography>
               <Typography className='do-texts'>
                 <span className='do-text'>It's a special experience to swim in a hot natural water coming from a water spring...</span>

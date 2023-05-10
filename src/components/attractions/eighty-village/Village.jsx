@@ -2,7 +2,9 @@ import React from 'react'
 import Navbar from '../../navbar/Navbar'
 import Footer from '../../footer/Footer'
 
-import img2 from '../../../assets/tower.jpg'
+import img1 from '../../../assets/tower.jpg'
+
+import img2 from '../../../assets/village1.jpg'
 
 import './village.css'
 
@@ -16,7 +18,7 @@ const Village = () => {
         </div>
 
         <img
-          src={img2}
+          src={img1}
           alt=""
           className="Village-img"
         />

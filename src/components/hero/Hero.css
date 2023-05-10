@@ -9,7 +9,7 @@
   object-fit: cover;
 }
 
-.content{
+.contents{
   position: absolute;
   display: flex;
   justify-content: center;
@@ -22,13 +22,7 @@
   bottom: 25%;
 }
 
-.swiperimg{
-  width: 130%;
-  height: 100vh;
-  object-fit: cover;
-}
-
-.title-content{
+.title-contents{
   color: rgb(255, 255, 255);
   font-size: 50px;
   padding-bottom: 0;
@@ -81,16 +75,137 @@
   z-index: 2;
 }
 
-.list-items{
-  position: relative;
-  top: 50%;
-  z-index: 2;
-  color: rgb(5, 5, 5);
+@media only screen and (max-device-width: 320px) and (orientation: portrait) {
+  .title-contents{
+    font-size: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
 
+  .swiperslide img{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+  }
+
+  .mySwiper{
+    width: 100%;
+    height: 60vh;
+  }
+
+  .contents{
+    top: 15%;
+    left: 15%;
+    right: 15%;
+    bottom: 5%;
+  }
+  
+  .slogan{
+    font-size: 13px;
+  }
+  
+  .btn-discover span::before{
+    font-size: 13px;
+  }
+  
+  .span-disc{
+    font-size: 13px;
+  }
+  
+  .span-disc::before{
+    width: 60px;
+    height: 4px;
+  }
+  
+  
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .title-contents{
+    font-size: 24px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .swiperslide img{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+  }
+
+  .mySwiper{
+    width: 100%;
+    height: 60vh;
+  }
+
+  .contents{
+    top: 15%;
+    left: 15%;
+    right: 15%;
+    bottom: 5%;
+  }
+  
+  .slogan{
+    font-size: 15px;
+  }
+  
+  
+  .span-disc{
+    font-size: 15px;
+  }
+  
+  .span-disc::before{
+    width: 70px;
+    height: 4px;
+  }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 768px) {
+  .title-contents{
+    font-size: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .swiperslide img{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+  }
+
+  .mySwiper{
+    width: 100%;
+    height: 60vh;
+  }
+
+  .contents{
+    top: 15%;
+    left: 15%;
+    right: 15%;
+    bottom: 5%;
+  }
+  
+  .slogan{
+    font-size: 20px;
+  }
+  
+  
+  .span-disc{
+    font-size: 18px;
+  }
+  
+  .span-disc::before{
+    width: 80px;
+    height: 4px;
+  }
 }
 
 
-.list-items li{
-  font-size: 25px;
-  color: rgb(0, 0, 0);
+@media screen (min-width: 769px) and (max-width: 1243px) {
+      
 }
+
+@media screen (min-width: 1244px){
+      
+}
+

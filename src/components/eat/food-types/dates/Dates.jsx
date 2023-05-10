@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react'
 import Navbar from '../../../navbar/Navbar'
 import Footer from '../../../footer/Footer'
 
+import Datescards from './dates-cards/Datescards'
 import img1 from '../../../../assets/shopping-in-saudi-ar.jpg'
 import img2 from '../../../../assets/aziza.jpg'
 
@@ -15,30 +16,28 @@ const Dates = () => {
         <div className='nav'>
           <Navbar />
         </div>
-        <div  className="header-img"> 
-             <img
-          src={img1}
-          alt=""
-         
-        />
+        <div className="header-img">
+          <img
+            src={img1}
+            alt=""
+
+          />
 
         </div>
-       
+
         <h1 className='Dates-title'>Dates</h1>
 
       </div>
 
       <div className="Dates-body">
         <div className="Dates-texts">
-        <p className="Dates-text">
-            Figuig is known about it's diverse dishes, and the best way to explore its diversity it's definitly
-             by tasting home's food such as the association provides, you have just to make an order.
-             There are many types of dates in the oasis, such as Aziza the best one, and there is too LAASYAN, BOUFAKKOUS, AZIZA AMANZOU, LMAJHOUL.
-        </p>
+          <p className="Dates-text">
+            Figuig is known about it's diverse dates, such as AZIZA, AZIZA AMANZOU,
+            LAASYAN, BOUFAKKOUS, and LMAJHOUL.
+          </p>
         </div>
-        <div className="Dates-img">
-            <img src={img2} alt="" />
-        </div>
+        
+        <Datescards />
       </div>
 
       <div>

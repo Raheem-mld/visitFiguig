@@ -5,10 +5,10 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 
-import img1 from '../../assets/women-with-hayek.jpg'
-import img2 from '../../assets/church.jpg'
+import img1 from '../../assets/old-lajmaat.jpg'
+import img2 from '../../assets/tachraft.jpg'
 import img3 from '../../assets/riyad-zenaga-inside.jpg'
-import img4 from '../../assets/bike.jpg'
+import img4 from '../../assets/azrou3.jpg'
 
 import { Link } from 'react-router-dom';
 
@@ -20,9 +20,9 @@ const Info = () => {
         <div className='info'>
             <h1 className='Info-title'>know Before You Go</h1>
 
-            <div className="Cards">
+            <div className="info-cards">
              
-                    <Card sx={{borderRadius: '16px'}} className='Card'>
+                    <Card sx={{borderRadius: '16px'}} className='info-card'>
                         <CardMedia
                             component="img"
                             alt="green iguana"
@@ -35,14 +35,14 @@ const Info = () => {
                             </Typography>
                         
                         </CardContent>
-                        <hr/>
+                        <hr className='hrs'/>
                         <CardActions>
                             <Link to="/understand" className="link-without-underline"><span  className='more'>Learn More ></span></Link>
                         </CardActions>
                     </Card>
                
 
-                    <Card sx={{borderRadius: '16px'}} className='Card'>
+                    <Card sx={{borderRadius: '16px'}} className='info-card'>
                         <CardMedia
                             component="img"
                             alt="green iguana"
@@ -51,18 +51,18 @@ const Info = () => {
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div" className='info-slogan'>
-                            <span className='slogans'> Safety travel tips</span>
+                            <span className='slogans'> Pick your best time to come</span>
                             </Typography>
                            
                         </CardContent>
-                        <hr/>
+                       <hr className='hrs'/>
                         <CardActions>
-                        <Link to="/travel-safety-tips" className="link-without-underline"><span  className='more'>Learn More ></span></Link>
+                        <Link to="/time-to-come" className="link-without-underline"><span  className='more'>Learn More ></span></Link>
                         </CardActions>
                     </Card>
 
                     
-                    <Card sx={{borderRadius: '16px'}} className='Card'>
+                    <Card sx={{borderRadius: '16px'}} className='info-card'>
                         <CardMedia
                             component="img"
                             alt="green iguana"
@@ -75,14 +75,14 @@ const Info = () => {
                             </Typography>
                             
                         </CardContent>
-                        <hr/>
+                       <hr className='hrs'/>
                         <CardActions>
                         <Link to="/hotels" className="link-without-underline"><span  className='more'>Learn More ></span></Link>
                         </CardActions>
                     </Card>
 
                     
-                    <Card sx={{borderRadius: '16px'}} className='Card'>
+                    <Card sx={{borderRadius: '16px'}} className='info-card'>
                         <CardMedia
                             component="img"
                             alt="green iguana"
@@ -95,7 +95,7 @@ const Info = () => {
                             </Typography>
                         
                         </CardContent>
-                        <hr/>
+                       <hr className='hrs'/>
                         <CardActions>
                         <Link to="/transportation" className="link-without-underline"><span  className='more'>Learn More ></span></Link>
                         </CardActions>

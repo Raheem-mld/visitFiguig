@@ -4,7 +4,6 @@ import { BrowserRouter, Routes , Route } from 'react-router-dom';
 import HomePage from './components/HomePage/HomePage';
 import Presentation from './components/presentation/Presentation';
 import About from './components/understand/About';
-import Safety from './components/safetyTips/Safety';
 import Hotel from './components/hotels/Hotel';
 import Nanna from './components/hotels/hotel-details/nanna/Nanna';
 import Oasis from './components/hotels/hotel-details/oasis/Oasis';
@@ -29,6 +28,8 @@ import Arts from './components/arts/Arts';
 import ArtsandMusic from './components/arts/arts-music/ArtsandMusic';
 import Music from './components/arts/music/Music';
 import Handicraft from './components/arts/handicraft/Handicraft';
+import Timetocome from './components/timetocome/Timetocome';
+import Signup from './components/signup/Signup';
 
 
 
@@ -40,7 +41,7 @@ function App() {
         <Route exact path='/' element={<HomePage/>} />
         <Route exact path='/presentation' element={<Presentation/>} />
         <Route path='/understand' element={<About/>}/>
-        <Route path='/travel-safety-tips' element={<Safety/>}/>
+        <Route path='/time-to-come' element={<Timetocome/>}/>
         <Route path='/hotels' element={<Hotel/>}/>
         <Route path='/hotels/Maison-Nanna' element={<Nanna/>}/>
         <Route path='/hotels/Auberge-Oasis' element={<Oasis/>}/>
@@ -65,6 +66,7 @@ function App() {
         <Route path='/arts&music' element={<ArtsandMusic/>}/>
         <Route path='/music' element={<Music/>}/>
         <Route path='/handicraft' element={<Handicraft/>}/>
+        <Route path='/Signup' element={<Signup/>}/>
 
       </Routes >
     </BrowserRouter>

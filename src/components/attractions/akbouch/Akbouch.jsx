@@ -2,7 +2,8 @@ import React from 'react'
 import Navbar from '../../navbar/Navbar'
 import Footer from '../../footer/Footer'
 
-import img2 from '../../../assets/sun.jpg'
+import img1 from '../../../assets/akbouch2.jpg'
+import img2 from '../../../assets/akbouch3.jpg'
 
 import './akbouch.css'
 
@@ -16,7 +17,7 @@ const Akbouch = () => {
         </div>
 
         <img
-          src={img2}
+          src={img1}
           alt=""
           className="Akbouch-img"
         />
@@ -27,15 +28,15 @@ const Akbouch = () => {
 
       <div className="akbouch-body">
         <div className="body-text">
-        <p className='paragraphe'>
-        Mawlid al-Nabi, which in Arabic means the prophet’s birthday, marks the birth of the prophet Muhammad. 
-        Some Muslims commemorate this event because of the importance of the prophet in Islam. Believers believe that the Koran, God’s ultimate testament to humanity, was revealed to the prophet and that the latter is the most important messenger sent to humanity. 
-        Those celebrating the event will attend meals in mosques with other members of the community and spend the day reflecting on the teachings of the prophet.
-        The way Figuig celebrates Mawlid al-Nabi, by crackers as you will see in those images bellow.
-        </p>
+          <p className='paragraphe'>
+            Eid Al Mawlid Annabawi or "Lmouloud",
+            In Figuig, this holiday is celebrated with religious lectures,
+            recitations of verses from the Qur’an, and prophetic praises in mosques decorated with lights.
+            Plus the youth celbrates in a different way using  crackers and fireworks wich producees loud noises and bright colors.
+          </p>
         </div>
-        <div className="body-img">
-            <img src={img2} alt="" />
+        <div className="akbouch-img">
+          <img src={img2} alt="" />
         </div>
       </div>
 

@@ -9,17 +9,20 @@
     font-size: 30px;
 }
 
-.Cards {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+.info-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px 50px;
+    grid-template-areas:
+      ". . . .";
+    border-radius: 1px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   
-  .Card {
+  .info-card {
     width: 250px;
-    height: 450px;
+    height: 350px;
   }
 
 
@@ -39,14 +42,169 @@
     font-weight: 500;
     padding-left: 20px;
     font-size: 12px;
+    font-weight: 600;
 }
 
-hr{
+.hrs{
     width: 80%;
     color: azure;
-    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .link-without-underline {
     text-decoration: none;
   }
+
+  
+
+  @media only screen and (max-device-width: 320px) and (orientation: portrait) {
+
+    .info{
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    
+    .Info-title{
+        padding-left: 30px;
+        padding-bottom: 30px;
+        font-size: 15px;
+    }
+    
+ 
+.info-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      ".";
+    border-radius: 1px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  .info-card {
+    width: 250px;
+    height: 330px;
+  }
+
+    
+    .info-slogan{
+        padding-top: 5px;
+    
+    }
+    
+    .slogans{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .more{
+
+        font-size: 11px;
+        font-weight: 600;
+    }
+    
+    
+  }
+  
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .info{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .Info-title{
+        padding-left: 30px;
+        padding-bottom: 30px;
+        font-size: 15px;
+    }
+    
+ 
+.info-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      ".";
+    border-radius: 1px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  .info-card {
+    width: 250px;
+    height: 330px;
+  }
+
+    
+    .info-slogan{
+        padding-top: 5px;
+    
+    }
+    
+    .slogans{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .more{
+
+        font-size: 11px;
+        font-weight: 600;
+    }
+  }
+  
+  @media only screen and (min-device-width: 480px) and (max-device-width: 768px) {
+    .info{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .Info-title{
+        padding-left: 30px;
+        padding-bottom: 30px;
+        font-size: 15px;
+    }
+    
+ 
+.info-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      ".";
+    border-radius: 1px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  .info-card {
+    width: 250px;
+    height: 330px;
+  }
+
+    
+    .info-slogan{
+        padding-top: 5px;
+    
+    }
+    
+    .slogans{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .more{
+
+        font-size: 11px;
+        font-weight: 600;
+    }
+  }
+  
+  
+  @media screen (min-width: 769px) and (max-width: 1243px) {
+        
+  }
+  
+  @media screen (min-width: 1244px){
+        
+  }
+  

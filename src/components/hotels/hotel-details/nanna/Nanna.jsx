@@ -25,6 +25,14 @@ import img2 from '../../../../assets/la-maison-de-nanna2.jpg'
 import img3 from '../../../../assets/la-maison-de-nanna-salon.jpg'
 import img4 from '../../../../assets/la-maison-de-nanna-room.jpg'
 
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, EffectFade, Autoplay, Pagination } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/navigation'
+import 'swiper/css/effect-fade'
+
+
 import './nanna.css'
 
 import Navbar from '../../../navbar/Navbar';
@@ -70,7 +78,7 @@ const Nanna = () => {
           <LocationOnIcon />
         </div>
         <div className="slogan-location">
-          <Button onClick={handleOpen}><span  className='location-text'>Rue Ouled Sellam Ksar Zénaga, Figuig 61000 Maroc</span></Button>
+          <Button onClick={handleOpen}><span className='location-text'>Rue Ouled Sellam Ksar Zénaga, Figuig 61000 Maroc</span></Button>
           <Modal
             open={open}
             onClose={handleClose}
@@ -78,18 +86,18 @@ const Nanna = () => {
             aria-describedby="modal-modal-description"
           >
             <Box sx={style}>
-   
-              <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3379.8598814451984!2d-1.2390175858130752!3d32.100072425500905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd85d8c21aa64dd5%3A0x8cfa88863d9e669d!2sMaison%20de%20Nanna!5e0!3m2!1sfr!2sma!4v1680878493593!5m2!1sfr!2sma"
-               width="600" 
-               height="450" 
-               style={{border:"0"}}
-               allowfullscreen="" 
-               loading="lazy" 
-               referrerpolicy="no-referrer-when-downgrade"> 
-               </iframe>
-          
-             
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3379.8598814451984!2d-1.2390175858130752!3d32.100072425500905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd85d8c21aa64dd5%3A0x8cfa88863d9e669d!2sMaison%20de%20Nanna!5e0!3m2!1sfr!2sma!4v1680878493593!5m2!1sfr!2sma"
+                width="600"
+                height="450"
+                style={{ border: "0" }}
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+
+
             </Box>
           </Modal>
         </div>
@@ -97,22 +105,43 @@ const Nanna = () => {
       </div>
 
 
-      <div className="hotel-images">
-        <div className="hotel-image">
-          <img src={img1} alt="" />
-        </div>
-        <div className="hotel-image">
-          <img src={img2} alt="" />
-        </div>
-        <div className="hotel-image">
-          <img src={img3} alt="" />
-        </div>
-        <div className="hotel-image">
+      <div className="container-images">
 
-          <img src={img4} alt="" />
-        </div>
+        <Swiper
+          modules={[EffectFade, Navigation, Pagination, Autoplay]}
+
+          effect={'fade'}
+          speed={800}
+          slidesPerView={1}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          className="mySwiper"
+        >
+
+          <SwiperSlide className="swiperslide">
+            <img src={img1} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide className="swiperslide">
+            <img src={img2} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide className="swiperslide">
+            <img src={img3} alt="" />
+          </SwiperSlide>
+          <SwiperSlide className="swiperslide">
+            <img src={img4} alt="" />
+          </SwiperSlide>
+
+        </Swiper>
 
       </div>
+
 
       <div className="location-info">
 

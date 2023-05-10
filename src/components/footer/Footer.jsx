@@ -38,7 +38,7 @@ export default function Footer() {
       </div>
       <div className="footer-bottom">
         <div className="max-width">
-          <div className="content">
+          <div className="copyrights">
             Copyright 2023 | Powered By AZNAY technologies.
           </div>
         </div>

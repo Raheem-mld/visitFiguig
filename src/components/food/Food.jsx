@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from '../../assets/shopping-in-saudi-ar.jpg'
+import img1 from '../../assets/aziza7.jpg'
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 import './Food.css'

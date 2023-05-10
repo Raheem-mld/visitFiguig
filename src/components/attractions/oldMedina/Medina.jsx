@@ -2,7 +2,9 @@ import React from 'react'
 import Navbar from '../../navbar/Navbar'
 import Footer from '../../footer/Footer'
 
-import img2 from '../../../assets/oldmedina.jpg'
+import img1 from '../../../assets/women-with-hayek.jpg'
+
+import img2 from '../../../assets/street7.jpg'
 
 import './medina.css'
 
@@ -16,12 +18,12 @@ const Medina = () => {
         </div>
 
         <img
-          src={img2}
+          src={img1}
           alt=""
           className="Medina-img"
         />
 
-        <h1 className='Medina-title'> Medina in Figuig's pool</h1>
+        <h1 className='Medina-title'> Visit the old Medina</h1>
 
       </div>
 
@@ -31,7 +33,7 @@ const Medina = () => {
         It's an unforgettable experience just walking around the old medina smelling the air and be amazed of how the architecture.
         </p>
         </div>
-        <div className="body-img">
+        <div className="medina-img">
             <img src={img2} alt="" />
         </div>
       </div>

@@ -1,30 +1,51 @@
-import React from 'react'
-import contactIcon from '../../assets/contact.png'
-
+import { useRef } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-import './Navbar.css'
+import contactIcon from '../../assets/contact.png'
+import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
+import "./Navbar.css";
 
- const Navbar = () => {
+function Navbar() {
+  const navRef = useRef();
+
+  const showNavbar = () => {
+    navRef.current.classList.toggle(
+      "responsive_nav"
+    );
+  };
+
   return (
-    <div className='navbar'>
-      <div>
+    <header>
       <Link to="/" className='Title'>visitFiguig</Link>
-      </div>
 
-      <div>
+      <nav ref={navRef}>
         <ul className='list-navbar'>
-        <Link to="/do" className="link-without-underline"><li>See & Do</li></Link>
-        <Link to="/understand" className="link-without-underline"><li>Plan Your Trip</li></Link>
-        <Link to="/travel-safety-tips" className="link-without-underline"> <li>Travel Essentials</li></Link>
-        <Link to="/eat" className="link-without-underline"><li>Experiences</li></Link>
+          <Link to="/do" className="link-without-underline"><li>See & Do</li></Link>
+          <Link to="/understand" className="link-without-underline"><li>Plan Your Trip</li></Link>
+          <Link to="/hotels" className="link-without-underline"> <li>Hostels & Guest Houses</li></Link>
+          <Link to="/eat" className="link-without-underline"><li>Experiences</li></Link>
+          
         </ul>
-      </div>
 
-      <div className='contact'>
-        <img className='contact-icon' src= {contactIcon} alt=""/>
-      </div>
-    </div>
-  )
+  
+        <button
+          className="nav-btn nav-close-btn"
+          onClick={showNavbar}>
+          <FaTimes />
+        </button>
+      </nav>
+
+
+      <button
+        className="nav-btn"
+        onClick={showNavbar}>
+        <FaBars />
+      </button>
+
+      <Link to="/Signup" className="link-without-underline"><PersonOutlineIcon fontSize="large"/></Link>
+
+    </header>
+  );
 }
 
-export default Navbar
+export default Navbar;

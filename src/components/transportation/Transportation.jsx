@@ -1,10 +1,12 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar'
-import img2 from '../../assets/plane.png'
-import img1 from '../../assets/palmpool.jpg'
+
+import img1 from '../../assets/azrou2.jpg'
+import img2 from '../../assets/old-lajmaat.jpg'
+import img3 from '../../assets/riyad-zenaga-inside.jpg'
+import img4 from '../../assets/tachraft.jpg'
 
 import LocalAirportIcon from '@mui/icons-material/LocalAirport';
-import TrainIcon from '@mui/icons-material/Train';
 import DirectionsBusIcon from '@mui/icons-material/DirectionsBus';
 import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
 import DriveEtaIcon from '@mui/icons-material/DriveEta';
@@ -37,29 +39,7 @@ const Transportation = () => {
 
                 <h1 className='Transportation-title'>Transportation</h1>
 
-
-                <div className="bookcard">
-                    <div className="book-box">
-                        <div className="book-img">
-                            <img
-                                src={img2}
-                                alt=""
-
-                            />
-                        </div>
-
-                        <div className='book-texts'>
-                            <p className='book-title'>Book your flight and hotel</p>
-                            <p className='book-text'>
-                                There are dozens of major airports and airlines that can
-                                give you access to almost every part of Morooco, but The closest airports to Figuig is located in Bouarafa 110 km from the oasis.
-                                Figuig’s hostels and guest houses are plentiful and marked by superior hospitality.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-
+                
                 <div className="transport-ways">
                     <h1 className='trans-head'>How to arrive to Figuig </h1>
                     <div className="transport-cards">
@@ -69,7 +49,7 @@ const Transportation = () => {
                                 <span className='span-title'> Personal car</span>
                             </div>
                             <div className="trans-body">
-                                You can arrive with your personal car and you should just follow th map it's an easy road.
+                                You can arrive with your personal car and you should just follow the map it's an easy road.
                             </div>
                         </div>
 
@@ -94,6 +74,30 @@ const Transportation = () => {
                         </div>
                     </div>
                 </div>
+
+
+                <div className="bookcard">
+                    <div className="book-box">
+                        <div className="book-img">
+                            <img
+                                src={img2}
+                                alt=""
+
+                            />
+                        </div>
+
+                        <div className='book-texts'>
+                            <p className='book-title'>Types of transportation inside Figuig</p>
+                            <p className='book-text'>
+                                Figuig is a small town, so you can easily take walks in the old medina "LAAJMAAT", or you can rent a bike.
+                                if you are going to a far location you can take a taxi as well.
+                              
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
 
 
                 <div className="modes">
@@ -124,7 +128,7 @@ const Transportation = () => {
                         </CardContent>
                         <hr />
                         <CardActions>
-                            <Link to="/understand" className="link-without-underline"><span className='btn-learnmore'>Learn More ></span></Link>
+                            <Link to="/understand" className="link-without-underline"><span className='more'>Learn More ></span></Link>
                         </CardActions>
                     </Card>
 
@@ -134,7 +138,7 @@ const Transportation = () => {
                             component="img"
                             alt="green iguana"
                             height="150"
-                            image={img2}
+                            image={img3}
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div" className='info-slogan'>
@@ -144,7 +148,7 @@ const Transportation = () => {
                         </CardContent>
                         <hr />
                         <CardActions>
-                            <Link to="/hotels" className="link-without-underline"><span className='btn-learnmore'>Learn More ></span></Link>
+                            <Link to="/hotels" className="link-without-underline"><span className='more'>Learn More ></span></Link>
                         </CardActions>
                     </Card>
 
@@ -154,17 +158,17 @@ const Transportation = () => {
                             component="img"
                             alt="green iguana"
                             height="150"
-                            image={img2}
+                            image={img4}
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div" className='info-slogan'>
-                                <span className='slogans'> Safety travel tips</span>
+                                <span className='slogans'> Pick your best time to come</span>
                             </Typography>
 
                         </CardContent>
                         <hr />
                         <CardActions>
-                            <Link to="/travel-safety-tips" className="link-without-underline"><span className='btn-learnmore'>Learn More ></span></Link>
+                            <Link to="/time-to-come" className="link-without-underline"><span className='more'>Learn More ></span></Link>
                         </CardActions>
                     </Card>
 

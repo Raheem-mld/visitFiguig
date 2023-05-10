@@ -2,7 +2,8 @@ import React from 'react'
 import Navbar from '../../navbar/Navbar'
 import Footer from '../../footer/Footer'
 
-import img2 from '../../../assets/poolikoudass.jpg'
+import img1 from '../../../assets/pool1.jpg'
+import img2 from '../../../assets/pool2.jpg'
 
 import './swimming.css'
 
@@ -16,12 +17,12 @@ const Swimming = () => {
         </div>
 
         <img
-          src={img2}
+          src={img1}
           alt=""
           className="Swimming-img"
         />
 
-        <h1 className='Swimming-title'> Swimming in Figuig's pool</h1>
+        <h1 className='Swimming-title'> Swimming in Figuig</h1>
 
       </div>
 

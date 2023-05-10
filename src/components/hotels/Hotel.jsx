@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar'
-import img1 from '../../assets/plane.png'
+import img1 from '../../assets/view13.jpg'
 import img2 from '../../assets/la-maison-de-nanna2.jpg'
 import img3 from '../../assets/auberge-oasis-salon.jpg'
 import img4 from '../../assets/riyad-zenaga-inside.jpg'
@@ -59,7 +59,7 @@ const Hotel = () => {
               </CardContent>
               <hr />
               <CardActions>
-                 <Link to="/hotels/Maison-Nanna " className="link-without-underline"><span className='btn-learnmore'>See More ></span></Link>
+                 <Link to="/hotels/Maison-Nanna " className="link-without-underline"><span className='more'>See More ></span></Link>
               </CardActions>
             </Card>
 
@@ -78,7 +78,7 @@ const Hotel = () => {
               </CardContent>
               <hr />
               <CardActions>
-              <Link to="/hotels/Auberge-Oasis " className="link-without-underline"><span className='btn-learnmore'>See More ></span></Link>
+              <Link to="/hotels/Auberge-Oasis " className="link-without-underline"><span className='more'>See More ></span></Link>
               </CardActions>
             </Card>
 
@@ -98,7 +98,7 @@ const Hotel = () => {
               </CardContent>
               <hr />
               <CardActions>
-              <Link to="/hotels/Riyad-Zenaga " className="link-without-underline"><span className='btn-learnmore'>See More ></span></Link>
+              <Link to="/hotels/Riyad-Zenaga " className="link-without-underline"><span className='more'>See More ></span></Link>
               </CardActions>
             </Card>
 
@@ -117,7 +117,7 @@ const Hotel = () => {
               </CardContent>
               <hr />
               <CardActions>
-              <Link to="/hotels/hôte-Ajdir" className="link-without-underline"><span className='btn-learnmore'>See More ></span></Link>
+              <Link to="/hotels/hôte-Ajdir" className="link-without-underline"><span className='more'>See More ></span></Link>
               </CardActions>
             </Card>
 

@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import Navbar from '../navbar/Navbar'
 
-import img1 from '../../assets/shopping-in-saudi-ar.jpg'
+import img1 from '../../assets/aziza7.jpg'
 import img2 from '../../assets/trid.jpg'
 import img3 from '../../assets/couscous.jpg'
 import img4 from '../../assets/berkoukes.jpg'

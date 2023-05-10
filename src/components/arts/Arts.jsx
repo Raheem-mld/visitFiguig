@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from '../../assets/shopping-in-saudi-ar.jpg'
+import img1 from '../../assets/festival2.jpg'
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 import './arts.css'
@@ -17,10 +17,10 @@ const Arts = () => {
 
         <hr/>
 
-        <p>Enjoy our culture</p>
+        <p>Enjoy our culture,</p>
 
         <p>You will See and live our special culture.</p>
-        <div className='btns'>
+        <div className='btns-arts'>
         <Link to="/arts&music" className="link-without-underline"><Button size="small"><span  className='Arts-btn'>See More ></span></Button></Link>
          
         </div>

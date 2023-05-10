@@ -42,6 +42,10 @@
     object-fit: cover;
 }
 
+.text-title{
+    padding-bottom: 20px;
+}
+
 .box-one{
          display: grid;
         grid-template-columns: 1fr 1fr;
@@ -91,6 +95,21 @@
 }
 
 
+.explore-card {
+    width: 250px;
+    height: 300px;
+  }
+
+  .explore-cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-left: -20rem;
+  }
+
+  .explore-title{
+    padding: 39px;
+  }
 
 
 

@@ -8,16 +8,19 @@
     padding-bottom: 50px;
 }
 
-.Cards {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+.experience-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px 50px;
+    grid-template-areas:
+      ". . . .";
+    border-radius: 1px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   
-  .Card {
-    width: 350px;
+  .experience-card {
+    width: 250px;
     height: 350px;
   }
 
@@ -44,4 +47,74 @@ hr{
     font-size: 16px;
     font-weight: 600;
     padding-left: 5px;
+}
+
+@media only screen and (max-device-width: 320px) and (orientation: portrait) {
+    .Experience{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .Experience-title{
+        padding-left: 50px;
+        padding-bottom: 30px;
+        font-size: 15px;
+    }
+
+.experience-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      ".";
+    border-radius: 1px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  .experience-card {
+    width: 250px;
+    height: 330px;
+  }
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .Experience{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .Experience-title{
+        padding-left: 50px;
+        padding-bottom: 30px;
+        font-size: 15px;
+    }
+
+.experience-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      ".";
+    border-radius: 1px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  .experience-card {
+    width: 250px;
+    height: 330px;
+  }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 768px) {
+
+}
+
+
+@media screen (min-width: 769px) and (max-width: 1243px) {
+      
+}
+
+@media screen (min-width: 1244px){
+      
 }
