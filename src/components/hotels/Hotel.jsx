@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar'
-import img1 from '../../assets/view13.jpg'
+
+import img1 from '../../assets/background15.jpg'
 import img2 from '../../assets/la-maison-de-nanna2.jpg'
 import img3 from '../../assets/auberge-oasis-salon.jpg'
 import img4 from '../../assets/riyad-zenaga-inside.jpg'
@@ -59,7 +60,8 @@ const Hotel = () => {
               </CardContent>
               <hr />
               <CardActions>
-                 <Link to="/hotels/Maison-Nanna " className="link-without-underline"><span className='more'>See More ></span></Link>
+                 <Link to="/hotels/Maison-Nanna " className="link-without-underline">
+                  <span className='more'>See More ></span></Link>
               </CardActions>
             </Card>
 

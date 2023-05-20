@@ -19,9 +19,13 @@ const Food = () => {
 
         <p>Eat and Drink</p>
 
-        <p>You will taste something that is not found anywhere in the world.</p>
+        <p>You will taste something that you have never tasted anywhere else in the world.</p>
         <div className='btns'>
-        <Link to="/eat" className="link-without-underline"><Button size="small"><span  className='food-btn'>See More ></span></Button></Link>
+        <Link to="/eat" className="link-without-underline">
+          <Button size="small">
+            <span  className='food-btn'>See More ></span>
+          </Button>
+        </Link>
          
         </div>
        

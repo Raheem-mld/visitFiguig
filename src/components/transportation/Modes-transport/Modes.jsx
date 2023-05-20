@@ -5,7 +5,10 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
-import img3 from '../../../assets/bike.jpg'
+import img1 from '../../../assets/bike4.jpg'
+import img2 from '../../../assets/taxi.jpg'
+import img3 from '../../../assets/women-with-hayek.jpg'
+
 import './modes.css'
 
 function TabPanel(props) {
@@ -70,7 +73,7 @@ export default function Modes() {
 
               <div  className="modes-img">
                 <img
-                src={img3}
+                src={img1}
                 alt=""             
                 />
               </div>
@@ -89,7 +92,7 @@ export default function Modes() {
 
               <div  className="modes-img">
                 <img
-                src={img3}
+                src={img2}
                 alt=""             
                 />
               </div>

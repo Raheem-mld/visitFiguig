@@ -19,7 +19,7 @@ const Arts = () => {
 
         <p>Enjoy our culture,</p>
 
-        <p>You will See and live our special culture.</p>
+        <p>Our culture is our treasure, come and discover it.</p>
         <div className='btns-arts'>
         <Link to="/arts&music" className="link-without-underline"><Button size="small"><span  className='Arts-btn'>See More ></span></Button></Link>
          

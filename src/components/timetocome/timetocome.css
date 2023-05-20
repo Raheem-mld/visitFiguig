@@ -23,12 +23,35 @@
     padding-top: 280px;
     padding-left: 200px;
     padding-right: 200px;
+    
 }
 
 .Time-info{
     padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    grid-template-areas:
+      ". .";
+      justify-content: center;
+      align-items: center;
 }
 
+.right-info{
+    display: flex;
+ 
+}
+.right-info img{
+    width: 800px;
+    height: 450px;
+    border-radius: 5px;
+}
+
+.left-info img{
+    width: 800px;
+    height: 450px;
+    border-radius: 5px;
+}
 .safe-title{
     font-size: 30px;
     font-weight: 600;

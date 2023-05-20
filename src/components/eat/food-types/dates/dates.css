@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
 
-.header-img img{
+.Date-img{
     top: 0px;
     left: 0;
     position: relative;
@@ -8,7 +8,7 @@
     height: 90vh;
 }
 
-.Dates-title{
+.Date-title{
     position: relative;
     margin-top: -20rem;
     margin-left: 12rem;
@@ -18,26 +18,57 @@
     font-family: 'Alkatra', cursive;
 }
 
-.Dates-body{
-    padding-top: 270px;
+.Date-infos{
+    padding-top: 280px;
+    padding-left: 200px;
+    padding-right: 200px;
+    
 }
 
-.Dates-text{
+.Date-info{
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    grid-template-areas:
+      ". .";
+      justify-content: center;
+      align-items: center;
+}
+
+.right-info{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 150px;
-    padding-right: 150px;
+ 
+}
+.right-info img{
+    width: 800px;
+    height: 450px;
+    border-radius: 5px;
 }
 
-.Dates-img {
+.left-info img{
+    width: 800px;
+    height: 450px;
+    border-radius: 5px;
+}
+.safe-title{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.safe-sloagan{
+    font-size: 17px;
+}
+
+.down-text{
     padding-top: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-bottom: 50px;
+    font-size: 20px;
 }
 
-.Dates-img img{
+
+.aghi-img img{
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     border-radius: 5px;
 }

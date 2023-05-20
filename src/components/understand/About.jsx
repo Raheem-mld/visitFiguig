@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar'
-import img1 from '../../assets/view10.jpg'
+
+import img1 from '../../assets/background6.png'
 import img2 from '../../assets/figuig-1992.jpg'
 import img7 from '../../assets/old-lajmaat.jpg'
 import img4 from '../../assets/tachraft1.jpg'

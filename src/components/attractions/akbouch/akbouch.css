@@ -21,25 +21,37 @@
 
 .akbouch-body{
     padding-top: 250px;
-
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-.paragraphe{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 150px;
-    padding-right: 150px;
-}
 
 .akbouch-img {
     padding-top: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
 }
 
 .akbouch-img img{
     width: 100%;
     height: 150vh;
+    border-radius: 5px;
+}
+
+.akb-paragraphe{
+    padding-bottom: 50px;
+}
+
+.akbouch-info{
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    grid-template-areas:
+      ". .";
+      align-items:center;
+}
+
+.img-akbouch img{
+    width: 500px;
+    height: 250px;
     border-radius: 5px;
 }

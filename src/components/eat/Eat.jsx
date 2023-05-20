@@ -1,14 +1,13 @@
 import React, { useRef, useState } from 'react'
 import Navbar from '../navbar/Navbar'
 
-import img1 from '../../assets/aziza7.jpg'
-import img2 from '../../assets/trid.jpg'
-import img3 from '../../assets/couscous.jpg'
+import img1 from '../../assets/background18.png'
+
+import img2 from '../../assets/aziza1.jpg'
+import img3 from '../../assets/trid1.jpg'
 import img4 from '../../assets/berkoukes.jpg'
-import img5 from '../../assets/food-msemen.jpg'
-import img6 from '../../assets/grape.jpg'
-import img7 from '../../assets/Saison-récolte-dattes.jpg'
-import img8 from '../../assets/tower.jpg'
+import img5 from '../../assets/ablboul-dlkroureb.jpg'
+import img6 from '../../assets/aghroum-nabsal.jpg'
 
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -45,64 +44,65 @@ const Eat = () => {
       </div>
 
       <div className="activitie-title">
-      What to eat
+        What to eat
       </div>
 
       <div className="activities-section">
 
         <div className="Eat-cards">
-
-        <Card sx={{ borderRadius: '16px' }} className='Eat-card'>
+          <Card sx={{ borderRadius: '16px' }} className='Eat-card'>
             <CardMedia
               component="img"
               alt="green iguana"
-              height="150"
-              image={img7}
+              height="190"
+              image={img2}
             />
             <div className="Eats">
               <div className="Eat1">
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div" className='Eat-slogans'>
-                <span className='quotes'> Dates</span>
-              </Typography>
-              <Typography className='Eat-texts'>
-                <span className='Eat-text'> You can found it all over the oasis...
-                </span>
-              </Typography>
-            </CardContent>
-            </div>
-            <div className="Eat2">
-            <hr />
-            <CardActions>
-              <Link to="/Eat/dates" className="link-without-underline"><span className='btn-more'>Learn More ></span></Link>
-            </CardActions>
-            </div>
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div" className='Eat-slogans'>
+                    <span className='quotes'> Dates</span>
+                  </Typography>
+                  <Typography className='Eat-texts'>
+                    <span className='Eat-text'> You can find it all over the oasis...</span>
+                  </Typography>
+                </CardContent>
+              </div>
+              <hr />
+              <div className="Eat2">
+                <CardActions>
+                  <Link to="/Eat/dates" className="link-without-underline">
+                    <span className='more-food'>Learn More ></span>
+                  </Link>
+                </CardActions>
+              </div>
             </div>
           </Card>
+
 
           <Card sx={{ borderRadius: '16px' }} className='Eat-card'>
             <CardMedia
               component="img"
               alt="green iguana"
-              height="150"
-              image={img2}
+              height="190"
+              image={img3}
             />
-             <div className="Eats">
+            <div className="Eats">
               <div className="Eat1">
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div" className='Eat-slogans'>
-                <span className='quotes'>Trid</span>
-              </Typography>
-              <Typography className='Eat-texts'>
-                <span className='Eat-text'>You can found this in your hostel and guest house or you can order it from an association...</span>
-              </Typography>
-            </CardContent>
-            </div>
-            <div className="Eat2"></div>
-            <hr />
-            <CardActions>
-              <Link to="/Eat/trid" className="link-without-underline"><span className='btn-more'>Learn More ></span></Link>
-            </CardActions>
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div" className='Eat-slogans'>
+                    <span className='quotes'>Trid</span>
+                  </Typography>
+                  <Typography className='Eat-texts'>
+                    <span className='Eat-text'>You can order it from an association...</span>
+                  </Typography>
+                </CardContent>
+              </div>
+              <div className="Eat2"></div>
+              <hr />
+              <CardActions>
+                <Link to="/Eat/trid" className="link-without-underline"><span className='more-food'>Learn More ></span></Link>
+              </CardActions>
             </div>
           </Card>
 
@@ -111,27 +111,27 @@ const Eat = () => {
             <CardMedia
               component="img"
               alt="green iguana"
-              height="150"
+              height="190"
               image={img4}
             />
             <div className="Eats">
               <div className="Eat1">
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div" className='Eat-slogans'>
-                <span className='quotes'> Berkoukes</span>
-              </Typography>
-              <Typography className='Eat-texts'>
-                <span className='Eat-text'> You can found this in your hostel and guest house or you can order it from an association...
-                </span>
-              </Typography>
-            </CardContent>
-            </div>
-            <div className="Eat2">
-            <hr />
-            <CardActions>
-              <Link to="/Eat/berkoukes" className="link-without-underline"><span className='btn-more'>Learn More ></span></Link>
-            </CardActions>
-            </div>
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div" className='Eat-slogans'>
+                    <span className='quotes'> Berkoukes</span>
+                  </Typography>
+                  <Typography className='Eat-texts'>
+                    <span className='Eat-text'> You can order it from an association...
+                    </span>
+                  </Typography>
+                </CardContent>
+              </div>
+              <div className="Eat2">
+                <hr />
+                <CardActions>
+                  <Link to="/Eat/berkoukes" className="link-without-underline"><span className='more-food'>Learn More ></span></Link>
+                </CardActions>
+              </div>
             </div>
           </Card>
 
@@ -140,55 +140,56 @@ const Eat = () => {
             <CardMedia
               component="img"
               alt="green iguana"
-              height="150"
-              image={img3}
+              height="190"
+              image={img5}
             />
-              <div className="Eats">
+            <div className="Eats">
               <div className="Eat1">
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div" className='Eat-slogans'>
-                <span className='quotes'>Ouchou dlkroreb (couscous)</span>
-              </Typography>
-              <Typography className='Eat-texts'>
-                <span className='Eat-text'>You can found this in your hostel and guest house or you can order it from an association...</span>
-              </Typography>
-              
-            </CardContent>
-            </div>
-           
-            <div className="Eat2">
-            <hr />
-            <CardActions>
-              <Link to="/Eat/couscous" className="link-without-underline"><span className='btn-more'>Learn More ></span></Link>
-            </CardActions>
-            </div></div>
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div" className='Eat-slogans'>
+                    <span className='quotes'>Ouchou dlkroreb (couscous)</span>
+                  </Typography>
+                  <Typography className='Eat-texts'>
+                    <span className='Eat-text'>You can order it from an association...</span>
+                  </Typography>
+
+                </CardContent>
+              </div>
+
+              <div className="Eat2">
+                <hr />
+                <CardActions>
+                  <Link to="/Eat/couscous" className="link-without-underline"><span className='more-food'>Learn More ></span></Link>
+                </CardActions>
+              </div></div>
           </Card>
 
           <Card sx={{ borderRadius: '16px' }} className='Eat-card'>
             <CardMedia
               component="img"
               alt="green iguana"
-              height="150"
+              height="190"
               image={img6}
             />
-              <div className="Eats">
+            <div className="Eats">
               <div className="Eat1">
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div" className='Eat-slogans'>
-                <span className='quotes'> Aghroum nebsal </span>
-              </Typography>
-              <Typography className='Eat-texts'>
-                <span className='Eat-text'>You can found this in your hostel and guest house or you can order it from an association...</span>
-              </Typography>
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div" className='Eat-slogans'>
+                    <span className='quotes'> Aghroum nebsal </span>
+                  </Typography>
+                  <Typography className='Eat-texts'>
+                    <span className='Eat-text'>You can order it from an association...</span>
+                  </Typography>
 
-            </CardContent>
-            </div>
-            <div className="Eat2">
-            <hr />
-            <CardActions>
-              <Link to="/Eat/pates" className="link-without-underline"><span className='btn-more'>Learn More ></span></Link>
-            </CardActions>
-            </div></div>
+                </CardContent>
+              </div>
+              <div className="Eat2">
+                <hr />
+                <CardActions>
+                  <Link to="/Eat/pates" className="link-without-underline">
+                    <span className='more-food'>Learn More ></span></Link>
+                </CardActions>
+              </div></div>
           </Card>
 
 

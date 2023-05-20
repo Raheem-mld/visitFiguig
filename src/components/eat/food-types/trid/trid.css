@@ -19,25 +19,32 @@
 }
 
 .Trid-body{
-    padding-top: 250px;
+    padding-top: 300px;
+    padding-left: 280px;
+    padding-right: 280px;
 }
 
 .Trid-text{
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding-left: 150px;
-    padding-right: 150px;
+    
+    font-size: 20px;
+}
+
+.Trid2-text{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 20px;
 }
 
 .Trid-img {
     padding-top: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+
 }
 
 .Trid-img img{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     border-radius: 5px;
 }

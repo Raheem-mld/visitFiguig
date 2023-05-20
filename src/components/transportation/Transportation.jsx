@@ -1,15 +1,15 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar'
 
-import img1 from '../../assets/azrou2.jpg'
-import img2 from '../../assets/old-lajmaat.jpg'
-import img3 from '../../assets/riyad-zenaga-inside.jpg'
-import img4 from '../../assets/tachraft.jpg'
+import img1 from '../../assets/background8.png'
+import img2 from '../../assets/bike1.jpg'
+import img3 from '../../assets/old-lajmaat.jpg'
+import img4 from '../../assets/riyad-zenaga-inside.jpg'
+import img5 from '../../assets/tachraft.jpg'
 
 import LocalAirportIcon from '@mui/icons-material/LocalAirport';
 import DirectionsBusIcon from '@mui/icons-material/DirectionsBus';
 import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
-import DriveEtaIcon from '@mui/icons-material/DriveEta';
 
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -118,7 +118,7 @@ const Transportation = () => {
                             component="img"
                             alt="green iguana"
                             height="150"
-                            image={img2}
+                            image={img3}
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div" className='info-slogan'>
@@ -138,7 +138,7 @@ const Transportation = () => {
                             component="img"
                             alt="green iguana"
                             height="150"
-                            image={img3}
+                            image={img4}
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div" className='info-slogan'>
@@ -158,7 +158,7 @@ const Transportation = () => {
                             component="img"
                             alt="green iguana"
                             height="150"
-                            image={img4}
+                            image={img5}
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div" className='info-slogan'>

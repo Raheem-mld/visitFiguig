@@ -1,8 +1,10 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-import contactIcon from '../../assets/contact.png'
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
+
+import img1 from '../../assets/logo/logo.png'
+
 import "./Navbar.css";
 
 function Navbar() {
@@ -16,7 +18,9 @@ function Navbar() {
 
   return (
     <header>
-      <Link to="/" className='Title'>visitFiguig</Link>
+      <Link to="/" className='Title'>
+        <img src={img1} alt="" />
+      </Link>
 
       <nav ref={navRef}>
         <ul className='list-navbar'>
@@ -42,7 +46,10 @@ function Navbar() {
         <FaBars />
       </button>
 
-      <Link to="/Signup" className="link-without-underline"><PersonOutlineIcon fontSize="large"/></Link>
+      <Link to="/Signup" className="link-without-underline">
+      <PersonOutlineIcon fontSize="large" style={{color: 'black'}}/>
+
+      </Link>
 
     </header>
   );

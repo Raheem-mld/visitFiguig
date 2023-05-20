@@ -30,7 +30,7 @@
 .do-card {
     display: block;
     width: 270px;
-    height: 400px;
+    height: 350px;
   }
 
   .do-cards {
@@ -75,6 +75,3 @@
   padding-bottom: 0px;
 }
 
-.do-texts{
-  height: 20vh;
-}

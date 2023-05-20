@@ -1,25 +1,90 @@
-import { ChangeEvent, FC, useEffect, useState } from “react”; import “./signup.css”; import logo from ‘…/…/assets/logo/aznay-white.png’
+// import { ChangeEvent, FC, useEffect, useState } from "react";
+// import "./signup.css";
+// import logo from '../../assets/logo/aznay-white.png'
 
-const usernames = [“joe”, “joe1”, “joe2”];
+// const usernames = ["joe", "joe1", "joe2"];
 
-const useDebounce = (value: string, delay: number) => { const [debouncedValue, setDebouncedValue] = useState<string>(value); // added quotation marks around value
+// const useDebounce = (value: string, delay: number) => {
+//   const [debouncedValue, setDebouncedValue] = useState<string>(value);
 
-useEffect(() => { const handler = setTimeout(() => { setDebouncedValue(value); }, delay); return () => { clearTimeout(handler); }; }, [value, delay]);
+//   useEffect(() => {
+//     const handler = setTimeout(() => {
+//       setDebouncedValue(value);
+//     }, delay);
+//     return () => {
+//       clearTimeout(handler);
+//     };
+//   }, [value, delay]);
 
-return debouncedValue; };
+//   return debouncedValue;
+// };
 
-type UsernameProps = { isValid: boolean; isLoading: boolean; handleChange: (e: ChangeEvent<HTMLInputElement>) => void; };
+// type UsernameProps = {
+//   isValid: boolean;
+//   isLoading: boolean;
+//   handleChange: (e: ChangeEvent<HTMLInputElement>) => void;
+// };
 
-const Username: FC<UsernameProps> = ({ isValid, isLoading, handleChange }) => { return ( <> <div className=“username”> <input onChange={handleChange} autoComplete=“off” spellCheck=“false” className=“control” type=“email” placeholder=“Username” /> <div className={spinner ${isLoading ? "loading" : ""}}></div> </div> <div className={validation ${!isValid ? "invalid" : ""}}> Username already taken </div> </> ); };
+// const Username: FC<UsernameProps> = ({ isValid, isLoading, handleChange }) => {
+//   return (
+//     <>
+//       <div className="username">
+//         <input
+//           onChange={handleChange}
+//           autoComplete="off"
+//           spellCheck="false"
+//           className="control"
+//           type="email"
+//           placeholder="Username"
+//         />
+//         <div className={`spinner ${isLoading ? "loading" : ""}`}></div>
+//       </div>
+//       <div className={`validation ${!isValid ? "invalid" : ""}`}>
+//         Username already taken
+//       </div>
+//     </>
+//   );
+// };
 
-const Signup = () => { const [username, setUsername] = useState(“”); // added quotation marks around empty string const [isLoading, setIsLoading] = useState(false); const [isValid, setIsValid] = useState(false);
+// const Signup = () => {
+//   const [username, setUsername] = useState("");
+//   const [isLoading, setIsLoading] = useState(false);
+//   const [isValid, setIsValid] = useState(false);
 
-const debouncedUsername = useDebounce(username, 500);
+//   const debouncedUsername = useDebounce(username, 500);
 
-const handleChange = (e: ChangeEvent<HTMLInputElement>) => { setIsLoading(true); setUsername(e.target.value); };
+//   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
+//     setIsLoading(true);
+//     setUsername(e.target.value);
+//   };
 
-useEffect(() => { setIsValid(!usernames.some((u) => u === debouncedUsername)); setIsLoading(false); }, [debouncedUsername]);
+//   useEffect(() => {
+//     setIsValid(!usernames.some((u) => u === debouncedUsername));
+//     setIsLoading(false);
+//   }, [debouncedUsername]);
 
-return ( <div className=“card”> <img src={logo} /> <h2>Sign Up</h2> <form className=“form”> <Username isLoading={isLoading} isValid={isValid} handleChange={handleChange} /> <input name=“password” spellCheck=“false” className=“control” placeholder=“Password” /> <button disabled={!isValid} className=“control” type=“button”> JOIN NOW </button> </form> </div> ); };
+//   return (
+//     <div className="card">
+//       <img src={logo} />
+//       <h2>Sign Up</h2>
+//       <form className="form">
+//         <Username
+//           isLoading={isLoading}
+//           isValid={isValid}
+//           handleChange={handleChange}
+//         />
+//         <input
+//           name="password"
+//           spellCheck="false"
+//           className="control"
+//           placeholder="Password"
+//         />
+//         <button disabled={!isValid} className="control" type="button">
+//           JOIN NOW
+//         </button>
+//       </form>
+//     </div>
+//   );
+// };
 
-export default Signup
+// export default Signup

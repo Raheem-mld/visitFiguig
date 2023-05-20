@@ -30,6 +30,7 @@ import Music from './components/arts/music/Music';
 import Handicraft from './components/arts/handicraft/Handicraft';
 import Timetocome from './components/timetocome/Timetocome';
 import Signup from './components/signup/Signup';
+import ScrollToTop from './components/scrolltotop/ScrollToTop';
 
 
 
@@ -37,6 +38,7 @@ import Signup from './components/signup/Signup';
 function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop />
       <Routes >
         <Route exact path='/' element={<HomePage/>} />
         <Route exact path='/presentation' element={<Presentation/>} />

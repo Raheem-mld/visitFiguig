@@ -2,8 +2,8 @@ import React, { useRef, useState } from 'react'
 import Navbar from '../../../navbar/Navbar'
 import Footer from '../../../footer/Footer'
 
-import img1 from '../../../../assets/shopping-in-saudi-ar.jpg'
-import img2 from '../../../../assets/grape.jpg'
+import img1 from '../../../../assets/aghroum-nabsal.png'
+import img2 from '../../../../assets/aghroum.png'
 
 import './pates.css'
 
@@ -24,16 +24,14 @@ const Pates = () => {
 
         </div>
        
-        <h1 className='Pates-title'>Aghroum nabsal (Pâte with onion)</h1>
+        <h1 className='Pates-title'>Aghroum nabsal (Dough with onion)</h1>
 
       </div>
 
       <div className="Pates-body">
         <div className="Pates-texts">
         <p className="Pates-text">
-            Figuig is known about it's diverse dishes, and the best way to explore its diversity it's definitly
-             by tasting home's food such as the association provides, you have just to make an order.
-             One of the dishes you should try it's called Aghroum nabsal it's like a wrap of a dough and inside there are some vegetables like onion, red pepper, carrotand meat.
+            It's called Aghroum nabsal it's like a wrap of a dough and inside there are some vegetables like onion, red pepper, carrot and meat.
         </p>
         </div>
         <div className="Pates-img">

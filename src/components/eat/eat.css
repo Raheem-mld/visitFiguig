@@ -10,7 +10,6 @@
 
 .Eat-title{
     position: relative;
-
     margin-top: -20rem;
     margin-left: 12rem;
     font-size: 50px;
@@ -30,7 +29,7 @@
 .Eat-card {
     display: block;
     width: 270px;
-    height: 400px;
+    height: 370px;
   }
 
   .Eat-cards {
@@ -45,17 +44,6 @@
     border-radius: 1px;
   }
 
-  .Eat-images {
-    width: 20px;
-    height: auto;
-    border-radius: 8px;
-  }
-
-  .Eat-slogan{
-    padding-top: 10px;
-    padding-left: 0px;
-
-}
 
   .quotes{
     padding-left: 0px;
@@ -63,18 +51,17 @@
     font-weight: 600;
   }
 
-  .btn-more{
+  .more-food{
     color: rgb(119, 13, 13);;
-    font-weight: 500;
+    font-weight: 600;
     padding-left: 15px;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .Eat-text{
   font-size: 13px;
   padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
-.Eat-texts{
-  height: 20vh;
-}
+

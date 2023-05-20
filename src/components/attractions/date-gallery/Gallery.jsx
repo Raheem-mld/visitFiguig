@@ -2,9 +2,9 @@ import React from 'react'
 import Navbar from '../../navbar/Navbar'
 import Footer from '../../footer/Footer'
 
-import img1 from '../../../assets/aziza2.jpg'
+import img1 from '../../../assets/akbouch16.jpg'
 
-import img2 from '../../../assets/aziza4.jpg'
+import img2 from '../../../assets/dates-types.jpg'
 
 import './gallery.css'
 

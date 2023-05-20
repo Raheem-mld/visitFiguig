@@ -4,9 +4,9 @@ import Navbar from '../navbar/Navbar'
 import img1 from '../../assets/festival1.jpg'
 import img2 from '../../assets/akbouch2.jpg'
 import img3 from '../../assets/festival6.jpg'
-import img4 from '../../assets/dates.jpg'
+import img4 from '../../assets/types1.jpg'
 import img5 from '../../assets/pool1.jpg'
-import img6 from '../../assets/minaret2.jpg'
+import img6 from '../../assets/minaret3.png'
 import img7 from '../../assets/women-with-hayek.jpg'
 import img8 from '../../assets/tower.jpg'
 
@@ -66,7 +66,8 @@ const Do = () => {
                 <span className='quotes'>Akbouch Festival</span>
               </Typography>
               <Typography className='do-texts'>
-                <span className='do-text'>It is a festival that takes place every year it's called al-Mawlid al-nabawi, generally celebrated on the 12th Rabi-el-Aouel...</span>
+                <span className='do-text'>It is a festival that takes place every year it's called al-Mawlid al-nabawi, ...
+                </span>
               </Typography>
             </CardContent>
             </div>
@@ -93,8 +94,8 @@ const Do = () => {
                     <span className='quotes'> Oasis Culture Festival</span>
                   </Typography>
                   <Typography className='do-texts'>
-                    <span className='do-text'>From 19 to 21 August, of every year the oasis of Figuig hosts the Festival of
-                      Oasian Cultures, ...</span>
+                    <span className='do-text'>Every year the oasis of Figuig hosts the Festival of
+                      Oasis Cultures, ...</span>
                       {/*  organized under the patronage of HM King Mohammed VI... with the theme «Oasian heritage, roots and horizons». */}
                   </Typography>
 
@@ -154,7 +155,7 @@ const Do = () => {
                 <span className='quotes'> Swimming</span>
               </Typography>
               <Typography className='do-texts'>
-                <span className='do-text'>It's a special experience to swim in a hot natural water coming from a water spring...</span>
+                <span className='do-text'>It's a special experience to swim in a hot natural water coming from a ...</span>
               </Typography>
               
             </CardContent>
@@ -182,8 +183,8 @@ const Do = () => {
                 <span className='quotes'> Visit The Monuments of Figuig</span>
               </Typography>
               <Typography className='do-texts'>
-                <span className='do-text'>Drawn up majestically in the heart of the city of Figuig, the stony octagonal minaret,
-                  one of the oldest monuments of the Oriental, ... </span>
+                <span className='do-text'>Drawn up majestically in the heart of the city of Figuig, the stony minaret, ...
+                 </span>
                   {/* presents an imposing and unprecedented allure that does not leave indifferent. */}
               </Typography>
 
@@ -211,7 +212,8 @@ const Do = () => {
                 <span className='quotes'> Wandering down in the old Medina</span>
               </Typography>
               <Typography className='do-texts'>
-                <span className='do-text'>It's an unforgettable experience just walking around the old medina smelling the air and be amazed of how the architecture...</span>
+                <span className='do-text'>It's an unforgettable experience just walking 
+                around the old medina smelling ...</span>
               </Typography>
             </CardContent>
             </div>
@@ -237,7 +239,7 @@ const Do = () => {
                 <span className='quotes'> Give a visit to the Eighty villages </span>
               </Typography>
               <Typography className='do-texts'>
-                <span className='do-text'>It's amongst the places you should give a visit, it's a nice place for the kids entertainments...</span>
+                <span className='do-text'>It's amongst the places you should give a visit, it's a ...</span>
               </Typography>
             </CardContent>
             </div>
