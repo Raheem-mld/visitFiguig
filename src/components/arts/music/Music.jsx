@@ -3,8 +3,9 @@ import React from 'react'
 import Navbar from '../../navbar/Navbar'
 import Footer from '../../footer/Footer'
 
-import img1 from '../../../assets/jardins-of-zenaga.jpg'
-import img2 from '../../../assets/doundoun.jpg'
+import img1 from '../../../assets/festival1.jpg'
+import img2 from '../../../assets/doundoun1.jpg'
+import img3 from '../../../assets/ourar.jpg'
 
 import './music.css'
 const Music = () => {
@@ -41,7 +42,7 @@ const Music = () => {
 
                     <div className="img-text">
                         <div className="middle-img">
-                            <img src={img2} alt="" />
+                            <img src={img3} alt="" />
                         </div>
                         <div className="texts">
                             <p className="prgrph">

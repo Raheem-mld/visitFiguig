@@ -41,7 +41,8 @@
     grid-template-areas:
       ". . .";
     margin-top: -100px;
-    margin-left: 90px;
+    margin-left: 116px;
+    margin-right: 0px;
     border-radius: 1px;
   }
 

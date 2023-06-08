@@ -38,7 +38,7 @@ const Experience = () => {
                             
                         
                         </CardContent>
-                        <hr/>
+                        <hr className='hrs'/>
                         <CardActions>
                            <Link to="/do/akbouch" className="link-without-underline"><span  className='more'>Learn More ></span></Link>
                         </CardActions>
@@ -57,12 +57,12 @@ const Experience = () => {
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div" className='Experience-slogan'>
-                            <span className='Experience-slogan'> Date harvest season</span> 
+                            <span className='Experience-slogan'> Dates Exhibition</span> 
                             </Typography>
                         
                         
                         </CardContent>
-                        <hr/>
+                        <hr className='hrs'/>
                         <CardActions>
                            <Link to="/do/date-gallery" className="link-without-underline"><span  className='more'>Learn More ></span></Link>
                         </CardActions>
@@ -81,11 +81,11 @@ const Experience = () => {
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div" className='Experience-slogan'>
-                            <span className='Experience-slogan'> Hikings</span> 
+                            <span className='Experience-slogan'> Enjoy the nature</span> 
                             </Typography>
                         
                         </CardContent>
-                        <hr/>
+                        <hr className='hrs'/>
                         <CardActions>
                            <Link to="/transportation" className="link-without-underline"><span  className='more'>Learn More ></span></Link>
                         </CardActions>
@@ -101,13 +101,13 @@ const Experience = () => {
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div" >
-                               <span className='Experience-slogan'>Tour with Bikes</span> 
+                               <span className='Experience-slogan'>Tours with a guide</span> 
                             </Typography>
                         
                         </CardContent>
-                        <hr/>
+                        <hr className='hrs'/>
                         <CardActions>
-                           <Link to="/transportation" className="link-without-underline"><span  className='more'>Learn More ></span></Link>
+                           <Link to="/guide-tours" className="link-without-underline"><span  className='more'>Learn More ></span></Link>
                         </CardActions>
                     </Card>
 

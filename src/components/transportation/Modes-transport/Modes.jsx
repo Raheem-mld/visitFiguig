@@ -5,6 +5,9 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
+import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom';
+
 import img1 from '../../../assets/bike4.jpg'
 import img2 from '../../../assets/taxi.jpg'
 import img3 from '../../../assets/women-with-hayek.jpg'
@@ -66,9 +69,17 @@ export default function Modes() {
               <div className='modes-card'>
                 <p className='modes-title'>Bike rentals</p>
                 <p className='modes-text'>
-                Hiring a bike is an efficient and cost-effective way to explore Figuig 
+                Renting a bike is an efficient and cost-effective way to explore Figuig 
                 and visit the oasis's many tourist attractions. Bikes can be rented at associations, making it easy to get out and explore.
                 </p>
+           
+                <div className='button-rent'>
+                <Link to="/understand" className="link-without-underline">
+                   <Button variant="contained" className='btn-rent' style={{ backgroundColor: 'rgb(119, 13, 13)' }}>Rent a Bike Now !</Button>
+                </Link>
+                </div>
+
+               
               </div>
 
               <div  className="modes-img">

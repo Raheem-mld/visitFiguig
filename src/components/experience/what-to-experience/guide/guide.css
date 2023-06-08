@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
+
+.Guide-img{
+    top: 0px;
+    left: 0;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
+
+.Guide-title{
+    position: relative;
+    margin-top: -20rem;
+    margin-left: 12rem;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Alkatra', cursive;
+}
+
+.Guide-infos{
+    padding-top: 280px;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+
+.Guide-info{
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    grid-template-areas:
+      ". .";
+      justify-content: center;
+      align-items: center;
+}
+
+.right-info{
+    display: flex;
+ 
+}
+.right-info img{
+    width: 800px;
+    height: 450px;
+    border-radius: 5px;
+}
+
+.left-info img{
+    width: 800px;
+    height: 450px;
+    border-radius: 5px;
+}
+.safe-title{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.safe-sloagan{
+    font-size: 17px;
+}
+
+.down-text{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+
+.aghi-img img{
+    width: 100%;
+    height: 70vh;
+    border-radius: 5px;
+}
+
+.prg-guide{
+    font-size: 17px;
+    padding-bottom: 40px;
+}
+
+.button-guide{
+    margin-top: 30px;
+    
+  }

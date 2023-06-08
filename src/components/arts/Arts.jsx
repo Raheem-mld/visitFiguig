@@ -13,7 +13,7 @@ const Arts = () => {
       </div>
 
       <div className='Arts-info'>
-        <h2>Arts & Music in Figuig</h2>
+        <h2>Cultural Heritage in Figuig</h2>
 
         <hr/>
 
@@ -21,7 +21,7 @@ const Arts = () => {
 
         <p>Our culture is our treasure, come and discover it.</p>
         <div className='btns-arts'>
-        <Link to="/arts&music" className="link-without-underline"><Button size="small"><span  className='Arts-btn'>See More ></span></Button></Link>
+        <Link to="/sign-up" className="link-without-underline"><Button size="small"><span  className='Arts-btn'>See More ></span></Button></Link>
          
         </div>
        

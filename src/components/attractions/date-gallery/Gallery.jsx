@@ -23,14 +23,15 @@ const Gallery = () => {
           className="Gallery-img"
         />
 
-        <h1 className='Gallery-title'> Dates Gallery Festival</h1>
+        <h1 className='Gallery-title'> Dates Exihibition Festival</h1>
 
       </div>
 
       <div className="Gallery-body">
         <div className="body-text">
         <p className='paragraphe'>
-        Every year Figuig hosts a gallery of dates in the heart of Ksar Zenaga Tachraft, you will find all types of dates with reasonable prices. 
+        Dates exhibition is a type of event where producers, traders, and consumers of dates and local products can meet, exchange, and learn about the different varieties, origins, and uses of this delicious and nutritious fruit. Dates exhibition can be held
+         in different countries and regions, depending on the local production and demand of dates.
         </p>
         </div>
         <div className="body-img">

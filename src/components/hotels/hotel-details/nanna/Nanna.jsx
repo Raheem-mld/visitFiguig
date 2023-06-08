@@ -89,7 +89,7 @@ const Nanna = () => {
 
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3379.8598814451984!2d-1.2390175858130752!3d32.100072425500905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd85d8c21aa64dd5%3A0x8cfa88863d9e669d!2sMaison%20de%20Nanna!5e0!3m2!1sfr!2sma!4v1680878493593!5m2!1sfr!2sma"
-                width="600"
+                width="530"
                 height="450"
                 style={{ border: "0" }}
                 allowfullscreen=""
@@ -172,7 +172,7 @@ const Nanna = () => {
 
           <div className="down-info">
             <p>Perfect for a summer vacation</p>
-            <p>Located in the old medina of the Oasis, you will see an amazing ancient architecture of houses around. </p>
+            <p className='ppp'>Located in the old medina of the Oasis, you will see an amazing ancient architecture of houses around. </p>
             <Button variant="contained" className='btn-reserve'>Reserve or Book Now !</Button>
           </div>
         </div>

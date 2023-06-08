@@ -19,7 +19,7 @@
 }
 
 .activitie-title{
-    padding-top: 250px;
+    padding-top: 280px;
     padding-left: 50px;
     padding-bottom: 50px;
     font-size: 30px;
@@ -28,19 +28,19 @@
 
 .Eat-card {
     display: block;
-    width: 270px;
+    width: 300px;
     height: 370px;
   }
 
   .Eat-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 50px 30px;
+    gap: 50px 150px;
     grid-template-areas:
       ". . . .";
     padding-top: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 80px;
     border-radius: 1px;
   }
 

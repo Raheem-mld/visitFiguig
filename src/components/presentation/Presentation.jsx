@@ -16,7 +16,7 @@ const Presentation = () => {
             </div>
 
             <div className="presentation-container">
-                <h1 className='presentation-title'>Figuig. a city-oasis, core of ksour and cultures </h1>
+                <h1 className='presentation-title'>Figuig, a city-oasis, core of ksour and cultures </h1>
                 <img src={img1} alt="" className="presentation-img" />
             </div>
 

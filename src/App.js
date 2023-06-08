@@ -30,6 +30,7 @@ import Music from './components/arts/music/Music';
 import Handicraft from './components/arts/handicraft/Handicraft';
 import Timetocome from './components/timetocome/Timetocome';
 import Signup from './components/signup/Signup';
+import Guide from './components/experience/what-to-experience/guide/Guide';
 import ScrollToTop from './components/scrolltotop/ScrollToTop';
 
 
@@ -64,11 +65,13 @@ function App() {
         <Route path='/eat/pates' element={<Pates/>}/> 
         <Route path='/eat/trid' element={<Trid/>}/> 
         <Route path='/eat/couscous' element={<Couscous/>}/>
-        <Route path='/arts' element={<Arts/>}/>
+        <Route path='/sign-up' element={<Arts/>}/>
         <Route path='/arts&music' element={<ArtsandMusic/>}/>
         <Route path='/music' element={<Music/>}/>
         <Route path='/handicraft' element={<Handicraft/>}/>
         <Route path='/Signup' element={<Signup/>}/>
+        <Route path='/guide-tours' element={<Guide/>}/>
+
 
       </Routes >
     </BrowserRouter>

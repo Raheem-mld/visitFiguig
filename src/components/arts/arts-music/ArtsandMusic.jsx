@@ -3,8 +3,8 @@ import React from 'react'
 import Navbar from '../../navbar/Navbar'
 import Footer from '../../footer/Footer'
 
-import img1 from '../../../assets/plane.png'
-import img2 from '../../../assets/doundoun.jpg'
+import img1 from '../../../assets/a9rdach1.png'
+import img2 from '../../../assets/festival4.jpg'
 import img3 from '../../../assets/aztta.jpg'
 
 import { Link } from 'react-router-dom';
@@ -26,13 +26,13 @@ const ArtsandMusic = () => {
         className="ArtsandMusic-img"
       />
 
-      <h1 className='ArtsandMusic-title'>Figuig's Culture</h1>
+      <h1 className='ArtsandMusic-title'>Figuig's Cultural Heritage</h1>
 
     </div>
 
       <div className='ArtsandMusic-content'>
 
-        <h1 className='content-title'>Want to know about Figuig's Culture ?</h1>
+        <h1 className='content-title'>Want to know about Figuig's cultural heritage ?</h1>
 
         <div className='content-box'>
 

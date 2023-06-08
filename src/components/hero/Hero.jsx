@@ -39,7 +39,9 @@ const Hero = () => {
           <div className="contents">
             <p className="title-contents">Discover Figuig</p>
             <p className="slogan">For a unique travel experience, enjoy our Oasis.</p>
-            <Link to="/presentation" className="link-without-underline"><button className="btn-discover"><span className="span-disc">Discover more</span></button></Link>
+            <Link to="/presentation" className="link-without-underline">
+              <button className="btn-discover">
+                <span className="span-disc">Discover more</span></button></Link>
           </div>
         </SwiperSlide>
 

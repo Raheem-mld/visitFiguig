@@ -4,12 +4,12 @@
 
 .Artsimg img{
     width: 100%;
-    height: 70vh;
+    height: 85vh;
 }
 
 .Arts-info{
     position: absolute;
-    top: 20%; 
+    top: 35%; 
     padding-left: 50px;
     z-index: 1; 
     color: white;
